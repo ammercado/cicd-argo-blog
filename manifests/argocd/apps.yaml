@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/bharatmicrosystems/mdo-environments.git
+      repoURL: https://github.com/ammercado/cicd-argo-blog.git
       revision: dev
       directories:
       - path: manifests/*
@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/bharatmicrosystems/mdo-environments.git
+        repoURL: https://github.com/ammercado/cicd-argo-blog.git
         targetRevision: dev
         path: '{{path}}'
       destination:
